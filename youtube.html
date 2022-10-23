@@ -11,116 +11,152 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <style>
-        p {
-
-        }
-        .thumbnail {
-            width: 300px;
-            /* display: block; */
-        }
-        .search {
-            font-size: 20px;
-        }
-        .video-title {
-            font-size: 20px;
-            font-weight: bold;
-            margin-top: 0;
-            max-height: 4rem;
-            margin-bottom: 15px;
-            /* line-height: 1.5rem; */
-            overflow: hidden;
-            overflow-x: hidden;
-            overflow-y: hidden;
-            white-space: normal;
-            display: -webkit-box;
-            -webkit-line-clamp: 2;
-            -webkit-box-orient: vertical;
-            text-overflow: ellipsis;
-        }
-        .video-author, .video-stats  {
-            /* display: block; */
-            font-size: 17px;
-            color: rgb(96, 96, 96);
-            line-height: 1rem;
-            padding: none;
-            margin-top: 0;
-            margin-bottom: 4px;
-        }
-        .video-preview {
-            width: 300px;
-            display: inline-block;
-            padding: 12px;
-            vertical-align: top;
-        }
-        .video-avatar {
-            width: 50px;
-            height: 50px;
-            border-radius: 50px;
-            /* object-fit: cover; */
-        }
-        .channel-picture {
-            display: inline-block;
-            width: 50px;
-            vertical-align: top;
-            /* background-color: blue; */
-        }
-        .video-info {
-            display: inline-block;
-            width: 243px;
-            /* background-color: aqua; */
-        }
-        .thumbnail-row {
-            margin-bottom: 12px;
-        }
-    </style>
+    <link rel="stylesheet" href="youtube_videos.css">
+    <link rel="stylesheet" href="youtube_styles.css">
+    <link rel="stylesheet" href="youtube_header.css">
 </head>
 <body>
-    <div>
-        <input class="search" type="text"  placeholder="Search">
+    <div class="header">
+        <div class="left-section">
+            <img src="img/menu.svg" alt="" class="menu">
+            <img src="img/YouTube_Logo_2017.svg" alt="" class="YouTube">
+        </div>
+        <div class="middle-section">
+            <input class="search-bar" type="text"  placeholder="Search">
+            <button><img src="img/eye.svg" alt="" class="search-button"></button>
+            <button><img src="img/microphone.svg" alt="" class="microphone-button"></button>
+        </div>
+        <div class="right-section">right-section</div> 
     </div>
-    <div class="video-preview">
-        <div class="thumbnail-row">
-            <img class="thumbnail" src="img/NewCanvas1.jpg" alt="">
-        </div>
-        <div>
-            <div class="channel-picture">
-                <a href="#" ><img class="video-avatar" src="img/cat.jpg" alt=""></a>
+    <div class="video-grid">
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="img/NewCanvas1.jpg" alt="">
             </div>
-            <div class="video-info">
-                <p class="video-title">
-                    The girl still becomes a butterfly and sees her friend die. 
-                </p>
-                <p class="video-author">
-                    Butterfly
-                </p>
-                <p class="video-stats">
-                    3.5M views &#183; 3 weeks ago
-                </p>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href="#" ><img class="video-avatar" src="img/cat.jpg" alt=""></a>
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        The girl still becomes a butterfly and sees her friend die. 
+                    </p>
+                    <p class="video-author">
+                        Butterfly
+                    </p>
+                    <p class="video-stats">
+                        3.5M views &#183; 3 weeks ago
+                    </p>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="video-preview">
-        <div class="thumbnail-row">
-            <img class="thumbnail" src="img/NewCanvas2.jpg" alt="">
-        </div>
-        <div>
-            <div class="channel-picture">
-                <a href="#" ><img class="video-avatar" src="img/cat.jpg" alt=""></a>
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="img/NewCanvas2.jpg" alt="">
             </div>
-            <div class="video-info">
-                <p class="video-title">
-                    The cat was afraid. 
-                </p>
-                <p class="video-author">
-                    Butterfly
-                </p>
-                <p class="video-stats">
-                    2.1M views &#183; 2 weeks ago
-                </p>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href="#" ><img class="video-avatar" src="img/cat.jpg" alt=""></a>
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        The cat was afraid. 
+                    </p>
+                    <p class="video-author">
+                        Butterfly
+                    </p>
+                    <p class="video-stats">
+                        2.1M views &#183; 2 weeks ago
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="img/NewCanvas3.jpg" alt="">
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href="#" ><img class="video-avatar" src="img/cat.jpg" alt=""></a>
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        The girl still becomes a butterfly and sees her friend die. 
+                    </p>
+                    <p class="video-author">
+                        Butterfly
+                    </p>
+                    <p class="video-stats">
+                        3.5M views &#183; 3 weeks ago
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="img/NewCanvas4.jpg" alt="">
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href="#" ><img class="video-avatar" src="img/cat.jpg" alt=""></a>
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        The cat was afraid. 
+                    </p>
+                    <p class="video-author">
+                        Butterfly
+                    </p>
+                    <p class="video-stats">
+                        2.1M views &#183; 2 weeks ago
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="img/NewCanvas5.jpg" alt="">
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href="#" ><img class="video-avatar" src="img/cat.jpg" alt=""></a>
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        The girl still becomes a butterfly and sees her friend die. 
+                    </p>
+                    <p class="video-author">
+                        Butterfly
+                    </p>
+                    <p class="video-stats">
+                        3.5M views &#183; 3 weeks ago
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="img/NewCanvas6.jpg" alt="">
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href="#" ><img class="video-avatar" src="img/cat.jpg" alt=""></a>
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        The cat was afraid. 
+                    </p>
+                    <p class="video-author">
+                        Butterfly
+                    </p>
+                    <p class="video-stats">
+                        2.1M views &#183; 2 weeks ago
+                    </p>
+                </div>
             </div>
         </div>
     </div>
 </body>
 </html>
+
+<!-- https://youtu.be/G3e-cpL7ofc?t=16294 -->

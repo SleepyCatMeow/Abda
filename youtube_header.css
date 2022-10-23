@@ -1,0 +1,55 @@
+.search {
+    font-size: 20px;
+}
+.header {
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.left-section {
+    display: flex;
+    align-items: center;
+}
+.menu {
+    height: 24px;
+    margin: 0 20px;
+}
+.YouTube {
+    height: 20px;
+}
+.middle-section {
+    background-color: coral;
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 30px;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.right-section {
+    background-color: greenyellow;
+    width: 250px;
+}
+.search-bar {
+    flex:1;
+    height: 36px;
+    padding: 0 10px;
+    font-size: 16px;
+    font-family: 'VT323', monospace;
+    border: 1px solid red;
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 5px rgba(0, 0, 0, 0.05);
+}
+.search-bar::placeholder {
+    font-size: 16px;
+    font-family: 'VT323', monospace;
+}
+.search-button {
+    height: 30px;
+    border-radius: 50px;
+}
+.microphone-button {
+    height: 30px;
+}

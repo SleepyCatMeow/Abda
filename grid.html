@@ -6,9 +6,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grid</title>
 </head>
-<body>
-    <div>div 1</div>
-    <div>div 2 </div>
+<body style="padding-bottom: 1000px;">
+    <div style="
+        display: grid;
+        grid-template-columns: 100px 100px;
+        ">
+        <div style="background-color: lightpink;">div 1</div>
+        <div style="background-color: rgb(141, 240, 128)">div 2 <p>asd</p></div>
+    </div>
+    <div style="
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 100px 100px 200px;
+    ">
+    <div style="background-color: lightpink;">100px</div>
+    <div style="background-color: rgb(141, 240, 128)">100px<p>asd</p></div>
+    <div style="background-color: rgb(218, 45, 71);">200px</div>
+    <div style="background-color: rgb(233, 181, 37);">100px</div>
+</div>
+<div style="
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    ">
+    <div style="background-color: rgb(233, 181, 37);">100px</div>
+    <div style="background-color: rgb(203, 18, 37);">100px</div>
+</div>
+
+<div style="
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 100px 1fr 2fr;
+    ">
+    <div style="background-color: rgb(233, 181, 37);">100px</div>
+    <div style="background-color: rgb(203, 18, 37);">100px</div>
+    <div style="background-color: rgb(233, 181, 37);">100px</div>
+</div>
+<hr>
+<div style="
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 40px;
+    ">
+    <div style="background-color: rgb(201, 199, 193); height: 200px;">1fr</div>
+    <div style="background-color: gray; height: 200px;">1fr</div>
+    <div style="background-color: rgb(201, 199, 193) ; height: 200px;">1fr</div>
+    <div style="background-color: gray; height: 200px;">1fr</div>
+    <div style="background-color: rgb(201, 199, 193); height: 200px;">1fr</div>
+    <div style="background-color: gray ; height: 200px;">1fr</div>
+</div>
 </body>
 </html>
 

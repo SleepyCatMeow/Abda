@@ -1,0 +1,11 @@
+body {
+    height: 2000px;
+    padding-top: 80px;
+    padding-left: 100px;
+    padding-right: 20px;
+    /* cursor: url(img/mouse.png), default; */
+    cursor: url(img/cursor.png), default;
+    font-family: 'VT323', monospace;
+    margin: 0;
+    background-color: rgb(212, 212, 212);
+}

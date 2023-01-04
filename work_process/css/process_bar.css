@@ -1,0 +1,45 @@
+.main_block {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 0px 5px;
+    margin-right: 15px;
+}
+.top_block, .bottom_block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2px;
+}
+.username {
+    /* border: 1px solid red; */
+    display: inline-block;
+}
+.userlink {
+    /* border: 1px solid red; */
+    display: inline-block;
+}
+/* .bottom_block div {
+    border: 1px solid chocolate;
+} */
+.gif_pic {
+    height: 50px;
+}
+a {
+    text-decoration: none;
+    color: rgb(255, 196, 196);
+    font-weight: 700;
+}
+
+progress {
+    border: 1px solid black;
+    background-color: #eee;
+    height: 14px;
+}
+progress[value]::-webkit-progress-bar {
+    background-color: #eee;
+    border-radius: 2px;
+}
+/* .progress_bar{
+    flex: 1;
+} */

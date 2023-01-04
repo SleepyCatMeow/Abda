@@ -1,9 +1,13 @@
-progress {
-    border: 1px solid black;
-    background-color: #eee;
-    height: 14px;
+body {
+    background-color: gray;
 }
-progress[value]::-webkit-progress-bar {
-    background-color: #eee;
-    border-radius: 2px;
+.main {
+    padding: 15px;
+    margin: auto;
+    width: 60%;
+    border: 1px salmon solid;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }

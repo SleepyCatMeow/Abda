@@ -1,7 +1,7 @@
 body {
     background-color: gray;
 }
-.main {
+/* .main {
     padding: 15px;
     margin: auto;
     width: 60%;
@@ -9,5 +9,29 @@ body {
 
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
+} */
+.top {
+    background-color: rgb(51, 51, 51);
+    border: 1px solid black;
+    width: 30%;
+    margin: auto;
+    color: white;
+    padding: 15px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.main {
+    padding: 15px;
+    border: 1px solid black;
+    margin: auto;
+    width: 30%;
+    /* border: 1px salmon solid; */
+    background-color: rgb(51, 51, 51);
+    /* height: 800px; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: flex-start;
 }

@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(56, 56, 56);
+}
+.youtube-button {
+    background-color: brown;
+    color: white;
+    border: 1px solid black;
+    padding: 5px 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.youtube-button:hover {
+    background-color: rgb(0, 26, 255);
+}
+.main {
+    margin: 10% 35%;
+    border: 1px salmon solid;
+    padding: 20px;
+    background-color: darkmagenta;
+}
+.work_status {
+background-color: lightgray;
+border: 1px solid black;
+padding: 5px 10px;
+}
+.work_status:hover {
+background-color: rgb(88, 88, 88);
+color: white;
+}
+.work_process {
+    background-color: darkcyan;
+    border: none;
+    padding: 7px 10px;
+}
+.work_process:hover {
+    background-color: coral;
+}

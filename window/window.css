@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+.window_global {
+    padding: 3px;
+    background-color: #c0c0c0;
+    margin: auto;
+    width: 400px;
+    height: 300px;
+}
+.window_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border: 1px solid black;
+    background-color: #828282;
+}
+.window_left_section {
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+}
+.window_icon {
+    height: 15px;
+    margin: 3px;
+}
+.window_right_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.dash_roll_up, .wrap_unwrap, .exit {
+    background-color: #c0bfc4;
+    height: 15px;
+    width: 15px;
+    border-top: #ffffff solid 1px;
+    border-left:  #ffffff solid 1px;
+    border-right: #4f4c53 solid 1px;
+    border-bottom: #4f4c53 solid 1px;
+    /* border: 1px black solid; */
+    margin-right: 3px;
+}
+.window_under_top {
+    /* border: 1px salmon solid; */
+    display: flex;
+    flex-direction: row;
+    padding: 3px;
+}
+.file_edit_etc {
+    margin-right: 12px;
+    font-size: small;
+}

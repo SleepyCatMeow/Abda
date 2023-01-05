@@ -1,16 +1,6 @@
 body {
     background-color: gray;
 }
-/* .main {
-    padding: 15px;
-    margin: auto;
-    width: 60%;
-    border: 1px salmon solid;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-} */
 .top {
     background-color: rgb(51, 51, 51);
     border: 1px solid black;
@@ -22,13 +12,10 @@ body {
     margin-bottom: 20px;
 }
 .main {
-    padding: 15px;
-    border: 1px solid black;
+    padding: 5px;
+    background-color: #c0c0c0;
+    width: 570px;
     margin: auto;
-    width: 30%;
-    /* border: 1px salmon solid; */
-    background-color: rgb(51, 51, 51);
-    /* height: 800px; */
 
     display: flex;
     flex-direction: column;

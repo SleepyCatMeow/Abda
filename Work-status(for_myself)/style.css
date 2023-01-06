@@ -47,3 +47,10 @@ h2 {
     margin-left: 4%;
     color: rgb(71, 179, 71);
 }
+
+.mark_first {
+    background-color: rgb(169, 216, 216);
+}
+.mark_second {
+    background-color: rgb(200, 177, 221);
+}
